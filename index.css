@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+hr {
+  width: 30%;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: end;
+}
+
+#book-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid gray;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 5px;
+}
+
+.bookTitle {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+.bookList1 {
+  display: flex;
+  position: relative;
+}
+
+.bookList1:nth-child(even) {
+  background: rgb(231, 108, 108);
+}
+
+.bookList1:nth-child(odd) {
+  background: rgb(192, 239, 105);
+}
+
+.delete {
+  position: absolute;
+  right: 20px;
+  top: 20%;
+}
+
+button {
+  margin-left: auto;
+  box-shadow: 3px 3px;
+  background-color: rgba(61, 61, 102, 0.5);
+}
+
+button:hover {
+  background-color: rgb(255, 255, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid gray;
+  padding: 0 20px;
+  align-items: center;
+  font-size: large;
+}
+
+.logo {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 10px;
+  border-right: 2px solid gray;
+  padding: 4px 0;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: blue;
+}
+
+#contact-info p,
+#contact-info li {
+  text-align: start;
+}
+
+#contact {
+  border: none;
+}
+
+#present-time {
+  font-size: small;
+  text-align: right;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  border: 2px solid gray;
+  padding: 0 20px;
+  bottom: 2em;
+  width: 98%;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+#contact-info {
+  font-size: large;
+  text-align: center;
+}
+
+.message-item {
+  text-align: center;
+  padding-left: 30%;
+}
+
+.message-list {
+  padding-left: 35%;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
